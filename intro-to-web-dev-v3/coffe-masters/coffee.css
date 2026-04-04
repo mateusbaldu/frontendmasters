@@ -1,0 +1,146 @@
+.page {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.brand-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #43281c;
+    padding: 10px;
+}
+
+.brand-logo {
+    width: 3rem;
+    height: 3rem;
+    margin-right: 0.5rem;
+}
+
+.brand {
+    color: #fbf2c0;
+    font-size: 1rem;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 60px;
+    grid-template-areas: 
+    "item-1 .name-field"
+    "item-2 .payment-field"
+    "item-3      .";
+    margin: 30px 20px 40px 20px;
+}
+
+.items-container, .payment-field, .name-field{
+    background-color: #eee1d5;
+    border-radius: 3px;
+    padding: 0.1rem 1rem 0.5rem 1rem;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    border-bottom: 0.20rem solid #e9d5c2;
+}
+
+.section-title {
+    font-weight: normal;
+    margin: 0.8rem 1.2rem;
+}
+
+.section-title, .item-details {
+    color: #8f6238;
+}
+
+.item:last-child {
+    border-bottom: none;
+}
+
+.item-quantity {
+    margin-left: 1rem;
+    margin-right: 1.3rem;
+}
+
+.item-name, .item-price {
+    font-weight: 1000px;
+    margin-right: 2rem;
+}
+
+.item-price {
+    margin-left: auto;
+}
+
+.input-wrapper {
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.input-wrapper label {
+    position: absolute;
+    top: -0.5rem;
+    left: 2rem;
+    background-color: #eee1d5; 
+    padding: 0 0.25rem;
+    font-size: 0.75rem;
+    color: #8f6238;
+}
+
+.customer-input {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    border: 1px solid #8f6238; 
+    border-radius: 1.25rem;
+    background: transparent;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.item-1 {
+    grid-area: item-1;
+}
+
+.item-2 {
+    grid-area: item-2;
+}
+
+.item-3 {
+    grid-area: item-3;
+}
+
+.name-field {
+    grid-area: name-field;
+}
+
+.payment-field {
+    grid-area: payment-field;
+    margin-top: 40px;
+}
+
+.price-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.title-container, .value-container {
+    margin: 0 50px 0px 50px;
+}
+
+.total-price, .total-title {
+    font-weight: 550;
+}
+
+.submit-button {
+    background-color: #deb993;
+    margin: 0 auto;
+    border: none;
+    width: 70rem;
+    padding: 1rem 0;
+    font-size: medium;
+    border-radius: 25px;
+}

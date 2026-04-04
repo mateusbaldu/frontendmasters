@@ -1,0 +1,90 @@
+body {
+    margin: 40px;
+}
+
+.page {
+    display: grid;
+    grid-template-areas:
+        "header header header"
+        "nav-links nav-links nav-links"
+        "article-1 article-2 article-3"
+        "article-4 article-5 article-5";
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+.brand-header {
+    margin-top: 60px;
+    grid-area: header;
+}
+
+.brand {
+    font-size: 4rem;
+    font-weight: 200;
+}
+
+a {
+    text-decoration: none;
+    color: #666;
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.nav-links {
+    border: 3px solid black;
+    grid-area: nav-links;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin-bottom: 0;
+}
+
+.story {
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+    padding: 20px;
+}
+
+.article-title {
+    font-style: italic;
+    font-weight: 200;
+    font-size: 2rem;
+}
+
+.article-text {
+    text-align: left;
+} 
+
+.article-img {
+    width: 250px;
+    height: 250px;
+}
+
+.story-1 {
+    grid-area: article-1;
+}
+
+.story-2 {
+    grid-area: article-2;
+}
+
+.story-3 {
+    grid-area: article-3;
+    border-right: 3px solid black;
+}
+
+.story-4 {
+    grid-area: article-4;
+}
+
+.story-5 {
+    grid-area: article-5;
+    border-right: 3px solid black;
+}
