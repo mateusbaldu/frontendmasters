@@ -1,0 +1,29 @@
+body {
+    
+}
+
+header {
+    width: 100%;
+    padding: 15px 0;
+    color: #333;
+    text-align: center;
+    border-bottom: 2px solid #333;
+}
+
+.game-board {
+    margin: 40px auto 0 auto;
+    width: 20rem;
+}
+
+.char {
+    border: 3px solid #ccc;
+    height: 45px;
+    width: 45px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
