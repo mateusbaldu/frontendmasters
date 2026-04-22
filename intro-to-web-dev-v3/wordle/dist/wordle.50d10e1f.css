@@ -1,0 +1,26 @@
+header {
+  color: #333;
+  text-align: center;
+  border-bottom: 2px solid #333;
+  width: 100%;
+  padding: 15px 0;
+}
+
+.game-board {
+  width: 20rem;
+  margin: 40px auto 0;
+}
+
+.char {
+  border: 3px solid #ccc;
+  width: 45px;
+  height: 45px;
+}
+
+.row {
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  display: flex;
+}
+/*# sourceMappingURL=wordle.50d10e1f.css.map */

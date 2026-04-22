@@ -1,0 +1,12 @@
+11
+109C:\Users\samue\OneDrive\Documentos\GitHub\frontendmasters\intro-to-web-dev-v3\wordle\dist\wordle.50d10e1f.css134200631972565204 0
+89C:\Users\samue\OneDrive\Documentos\GitHub\frontendmasters\intro-to-web-dev-v3\wordle\dist134200631972755233 1
+95C:\Users\samue\OneDrive\Documentos\GitHub\frontendmasters\intro-to-web-dev-v3\wordle\wordle.css134200606395228116 0
+96C:\Users\samue\OneDrive\Documentos\GitHub\frontendmasters\intro-to-web-dev-v3\wordle\wordle.html134200623939414108 0
+113C:\Users\samue\OneDrive\Documentos\GitHub\frontendmasters\intro-to-web-dev-v3\wordle\dist\wordle.50d10e1f.css.map134200631972715273 0
+94C:\Users\samue\OneDrive\Documentos\GitHub\frontendmasters\intro-to-web-dev-v3\wordle\wordle.js134200623939604124 0
+112C:\Users\samue\OneDrive\Documentos\GitHub\frontendmasters\intro-to-web-dev-v3\wordle\dist\wordle.3dc97bdc.js.map134200631972745242 0
+108C:\Users\samue\OneDrive\Documentos\GitHub\frontendmasters\intro-to-web-dev-v3\wordle\dist\wordle.3dc97bdc.js134200631972685233 0
+108C:\Users\samue\OneDrive\Documentos\GitHub\frontendmasters\intro-to-web-dev-v3\wordle\dist\wordle.af5506b0.js134200631972625234 0
+112C:\Users\samue\OneDrive\Documentos\GitHub\frontendmasters\intro-to-web-dev-v3\wordle\dist\wordle.af5506b0.js.map134200631972715273 0
+101C:\Users\samue\OneDrive\Documentos\GitHub\frontendmasters\intro-to-web-dev-v3\wordle\dist\wordle.html134200631972595192 0
