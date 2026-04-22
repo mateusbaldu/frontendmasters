@@ -1,10 +1,10 @@
 ## build stage
 FROM node:20 as node-builder
-RUN mkdir /build
 WORKDIR /build
 COPY package*.json ./
 RUN npm ci
 COPY . .
+RUN npm run build
 
 
 ## run stage
